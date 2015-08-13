@@ -31,7 +31,8 @@ trait ConfiguredSparkFlatSpec extends FlatSpec with BeforeAndAfterAll {
     }
   }
 
-  lazy val sc = new SparkContext(sparkConf)
+//  lazy val sc = new SparkContext(sparkConf)
+  lazy val sc = new SparkContext("local", "ConfiguredSparkFlatSpec")
 
   override protected def afterAll(): Unit = {
     super.afterAll()

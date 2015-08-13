@@ -8,7 +8,7 @@ version := "0.0.1"
 
 organization := "com.github.ezhulenev"
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.10.5"
 
 scalacOptions += "-deprecation"
 
