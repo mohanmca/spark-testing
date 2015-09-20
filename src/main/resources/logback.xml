@@ -1,4 +1,4 @@
-<configuration>
+<configuration debug="true">
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
@@ -6,6 +6,7 @@
     </appender>
 
     <logger name="com.github.ezhulenev" level="DEBUG"/>
+    <logger name="spark" level="DEBUG"/>
 
     <root level="ERROR">
         <appender-ref ref="STDOUT" />
