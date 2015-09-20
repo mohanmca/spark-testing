@@ -3,6 +3,7 @@
 Source code for blog posts:
 
 - [Running Spark tests in standalone cluster](http://eugenezhulenev.com/blog/2014/10/18/run-tests-in-standalone-spark-cluster/)
+http://eugenezhulenev.com/blog/2014/10/18/run-tests-in-standalone-spark-cluster/
 
 ## Testing
 
